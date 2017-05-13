@@ -1,0 +1,38 @@
+.best{
+  background: url(../img/content/section2-BG.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+// .best__content{
+  
+//   margin: 0 auto;
+// }
+
+.best__content{
+text-align: center;
+
+
+}
+
+.best__text{
+  font: 72px/72px "Gagalin";
+  color: #2f3234;
+  padding-top: 80px;
+  
+}
+
+.advantages{
+  margin-top: 95px;
+  display: flex;
+  align-items: flex-start; 
+}
+
+.advantage__img{
+  margin-bottom: 34px;
+  vertical-align: bottom;
+}
+
+.advantage__title{
+  font: 24.12px/24.12px "Lifehack";
+}
+
