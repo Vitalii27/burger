@@ -4,12 +4,17 @@
   background: url(../img/content/section1-BG.jpg) no-repeat center center;
   background-size: cover; 
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh; 
   
 }
 
-.maincontent{
+.maincontent{ 
   height: 100%;
-}
+} 
 
 .header{
   padding-top: 12px;
@@ -89,12 +94,6 @@
   align-items: center;
 }
 
-
-
-.content__right{
-  margin-top: 150px;
-  margin-left: 10px;
-}
  
 .content__right_title{
   font: 72px/72px "Gagalin";
