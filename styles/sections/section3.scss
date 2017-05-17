@@ -3,7 +3,7 @@
 // }
 
 .presentation{
-  background: linear-gradient( to top, #f9b43b, #eb8d38, #f9b43b);
+  background: linear-gradient( to top, $yellow, #eb8d38, $yellow);
 
 }
 
@@ -14,4 +14,4 @@
 
 .content__right_title_slider{
   color: #fff ;
-}
+} 

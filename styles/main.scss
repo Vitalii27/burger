@@ -1,10 +1,17 @@
-
+// colors
+$yellow: #f9b43b;
+$red: #e35028;
+$orange: #e45028;
+$black: #2f3234;
 // layout setups
 @import "layout/normalize";
 @import "layout/adjustment";
 @import "layout/fonts";
-
-
+// sections
 @import "sections/section1";
 @import "sections/section2";
 @import "sections/section3";
+@import "sections/section4";
+@import "sections/section5";
+@import "sections/section6";
+@import "sections/section7";

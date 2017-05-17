@@ -1,0 +1,37 @@
+.team{
+ 
+  background: url(../img/content/section4-BG.jpg) no-repeat ;
+  background-size: cover;
+  position: relative;
+}        
+
+.team__section{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background: rgba(#2f3234, .93%); 
+  padding: 0 95px -0px 75px;
+} 
+
+.team__section_title{
+  font: 72px/72px "Gagalin";
+  margin-bottom: 20px;
+  color: $yellow;
+}
+
+.team__trigger{
+  color: #fff;
+  font: 14px/14px "Gagalin";
+  position: relative;
+   
+}
+
+.team__content_img{
+max-width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  
+  display: block;
+} 

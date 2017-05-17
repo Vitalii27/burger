@@ -3,11 +3,6 @@
   background-size: cover;
 }
 
-// .best__content{
-  
-//   margin: 0 auto;
-// }
-
 .best__content{
 text-align: center;
 
@@ -22,9 +17,10 @@ text-align: center;
 }
 
 .advantages{
-  margin-top: 95px;
-  display: flex;
-  align-items: flex-start; 
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 640px;
 }
 
 .advantage__img{
