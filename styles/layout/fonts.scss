@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: 'Lifehack';
-    src: url('../fonts/Lifehack Medium.otf') format('otf');
+    src: url('../../../fonts/Lifehack Medium.otf') format('otf');
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gagalin';
-    src: url('../fonts/Gagalin/Gagalin-Regular.otf') format('otf');
+    src: url('./fonts/Gagalin/Gagalin-Regular.otf') format('otf');
     font-style: normal;
 }
 
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('ttf');
+    src: url('../../fonts/Ubuntu/Ubuntu-Light.ttf') format('ttf');
     font-weight: 300;
     font-style: normal;
 
