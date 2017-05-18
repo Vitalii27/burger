@@ -21,21 +21,22 @@ body{
   
 }
 
-
-footer{
-  background: #0d0d0d;
-  height: 50px;
-  margin-top: -50px;
-  position: relative;
-  min-width: 960px;
-}
-
 section{
   
   height: 100vh;
   min-height: 650px; 
 
 }
+
+ .section__title_yellow{
+   font: 72px/72px "Gagalin";
+   color: $yellow;
+ }
+
+ .section__title_white{
+   font: 72px/72px "Gagalin";
+   color: #fff;
+ }
 
 .container{
   margin: 0 auto;

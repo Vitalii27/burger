@@ -1,3 +1,42 @@
 .opinions{
+  background-color: #b9b9b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // position: relative;
   
+}
+
+.opinions__list{
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+}
+
+
+.opinius__item{
+  height: 50%;
+  width: 25%;
+}
+ 
+.opinion{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.opinion__pic{
+  // position: absolute;
+    width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.opinion__pic_hover{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(20, 20, 20, .7);
 }

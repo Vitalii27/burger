@@ -2,4 +2,51 @@
  
     background: url(../img/content/section5-BG.jpg) ;
   background-size: cover;
-}       
+  position: relative;
+}    
+
+.menu__title{
+  position: absolute;
+  top: 110px;
+  left: 90px;
+}   
+
+
+.menu__list{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.menu__list_item{
+  display: inline-flex;
+  margin-right: -5px;
+  height: 100%;
+}
+
+.menu__list_trigger{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  display: block;
+  width: 80px;
+  position: relative;
+}
+
+.menu__trigger_text{
+  color: #fff;
+  font: 48px/48px "Gagalin";
+  position: absolute;
+  top: 50%;
+  height: 80px;
+  margin-top: -40px;
+  white-space: nowrap;
+  width: 650px;
+  left: 50%;
+  margin-left: -313px;
+  transform: rotate(-90deg);
+  text-align: center
+
+}

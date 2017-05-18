@@ -73,21 +73,6 @@
   
 }
 
-.order__button{
-  display: inline-block;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 13px;
-  border-radius: 5px;
-  background: $orange;
-  padding: 10px 16px ;
-
-  transition: all 0.3s;
-    &:hover{
-      background: #c1401e;
-    }
-
-}
 
 .content{
   display: flex;  
@@ -102,10 +87,8 @@
 }
  
 .content__right_title{
-  font: 72px/72px "Gagalin";
   margin-bottom: 20px;
-  color: $yellow;
-  
+   
 }
 
 .content__right_text{

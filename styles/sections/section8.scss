@@ -1,0 +1,71 @@
+.map{
+  position: relative;
+}
+
+.yandex__map {
+    height: calc(100% - 60px);
+}
+
+.footer {
+    background: url(../img/content/footer-bg.jpg)  no-repeat center bottom;
+    height: 60px;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.container__footer{
+    display: flex;
+
+}
+
+.footer__left{
+  width: 50%;
+}
+
+.footer__address {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer__tel {
+    color: $orange;
+    font-family: 'Ubuntu';
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer__right {
+  width: 50%;
+    text-align: right;
+    padding-top: 9px;
+}
+
+// .social__list {
+//     position: relative;
+//     top: 50%;
+// }
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+}
+
+.socials__link {
+    display: inline-block;
+    opacity: .3;
+    -webkit-transition: .3s;
+    transition: .3s;
+
+    &:hover{
+      opacity: 1;
+    }
+}
+
+.socials__icon {
+    display: block;
+    width: 18px ;
+    height: 18px ;
+    fill: #fff;
+}

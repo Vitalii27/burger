@@ -1,26 +1,29 @@
 .best{
   background: url(../img/content/section2-BG.jpg) no-repeat center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .best__content{
-text-align: center;
+  text-align: center;
 
 
 }
 
-.best__text{
-  font: 72px/72px "Gagalin";
+.best__content_text{
   color: #2f3234;
-  padding-top: 80px;
-  
+  font: 72px/72px "Gagalin";
+  padding-bottom: 80px;
 }
 
 .advantages{
-   display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+
+   
 }
 
 .advantage__img{
@@ -32,3 +35,7 @@ text-align: center;
   font: 24.12px/24.12px "Lifehack";
 }
 
+.advantage__text {
+  
+
+}
