@@ -3,10 +3,8 @@
     font-family: 'Lifehack';
     src: url('../fonts/Lifehack Medium.otf');
     src: url('../fonts/Lifehack Medium.otf') format('otf'),
-    url('../fonts/Lifehack Medium.otf') format('woff2'),
-    url('../fonts/Lifehack Medium.otf') format('woff'),
-    url('../fonts/Lifehack Medium.otf') format('truetype'),
-    url('../fonts/Lifehack Medium.otf') format('svg');
+    url('../fonts/Lifehack Medium.otf') format('otf');
+    
     font-weight: normal;
     font-style: normal;
 }
@@ -15,10 +13,8 @@
     font-family: 'Gagalin';
     src: url('../fonts/Gagalin/Gagalin-Regular.otf');
     src: url('../fonts/Gagalin/Gagalin-Regular.otf') format('otf'),
-    url('../fonts/Gagalin/Gagalin-Regular.otf') format('woff2'),
-    url('../fonts/Gagalin/Gagalin-Regular.otf') format('woff'),
-    url('../fonts/Gagalin/Gagalin-Regular.otf') format('truetype'),
-    url('../fonts/Gagalin/Gagalin-Regular.otf') format('svg');
+    url('../fonts/Gagalin/Gagalin-Regular.otf') format('otf');
+  
     font-weight: normal;
     font-style: normal;
 }
@@ -27,7 +23,12 @@
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('ttf'),
+     url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('woff2'),
+     url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('woff'),
+     url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype'),
+     url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('svg');
     font-weight: 300;
     font-style: normal;
 
@@ -35,7 +36,9 @@
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf') format('ttf');
+     src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf') format('woff2');
+   
     font-weight: 400;
     font-style: normal;
 
