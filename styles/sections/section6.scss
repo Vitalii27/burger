@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // position: relative;
+  position: relative;
   
 }
 
@@ -14,7 +14,7 @@
 }
 
 
-.opinius__item{
+.opinions__item{
   height: 50%;
   width: 25%;
 }
@@ -23,20 +23,80 @@
   width: 100%;
   height: 100%;
   position: relative;
+
+  &:hover{
+    .opinion__hover{
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 }
 
 .opinion__pic{
   // position: absolute;
-    width: 100%;
+  width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-.opinion__pic_hover{
+.opinion__hover{
   position: absolute;
-  height: 100%;
-  width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
   background: rgba(20, 20, 20, .7);
+  transform: scale(.9);
+  opacity: 0;
+  transition: .3s;
+
+}
+
+.opinion__hover_block{
+  padding: 50px 30px 50px 20px;
+}
+
+.opinion__hover_block_name{
+  color: #fff;
+  font: 14px/14px "Gagalin";
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.opinion__hover_block_opinion p{
+  color: #fff;
+  font: 14px/27px "Ubuntu";
+  padding-bottom: 17px;
+}
+
+.opinion__hover_block_more{
+  display: inline-block;
+  padding: 10px 13px;
+  background: #2f3234;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+
+  &:hover{
+    background: #282d30;
+  }
+}
+
+.opinion__more{
+  display: none;
+  z-index: 10;
+  position: relative;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateY(-50%);
+  background: #000;
+  border-radius: 5px;
+}
+
+.opinion__more_block_name .opinion__more_block_opinion{
+  color: #000;
 }

@@ -10,15 +10,46 @@
 </head>
 
 <body>
-
+  <div class="nav__dotted">
+    <ul class="nav__dotted_list">
+      <li class="nav__dotted_item">
+        <a href="#" class="nav__dotted_link">
+        </a>
+      </li>
+      <li class="nav__dotted_item">
+        <a href="#" class="nav__dotted_link"></a>
+      </li>
+      <li class="nav__dotted_item">
+        <a href="" class="nav__dotted_link"></a>
+      </li>
+      <li class="nav__dotted_item">
+        <a href="" class="nav__dotted_link"></a>
+      </li>
+      <li class="nav__dotted_item">
+        <a href="" class="nav__dotted_link"></a>
+      </li>
+      <li class="nav__dotted_item">
+        <a href="" class="nav__dotted_link"></a>
+      </li>
+      <li class="nav__dotted_item">
+        <a href="" class="nav__dotted_link"></a>
+      </li>
+      <li class="nav__dotted_item">
+        <a href="" class="nav__dotted_link"></a>
+      </li>
+    </ul>
+  </div>
   <div class="wrapper">
+
     <div class="maincontent">
       <section class="section welcome">
 
         <div class="container">
           <header class="header">
             <div class="header__left">
-              <img src="./img/content/logo.png" alt="logo" class="header__left_logo">
+              <a href="#" class="logo__link">
+                <img src="./img/content/logo.png" alt="logo" class="header__left_logo">
+              </a>
             </div>
             <div class="header__right">
               <div class="nav">
@@ -38,7 +69,7 @@
           </header>
         </div>
         <div class="container">
-          <div class="content aaa">
+          <div class="content content__block">
             <div class="content__left">
               <img src="./img/content/sections1-burger.png" alt="content-logo" class="content__img">
             </div>
@@ -80,14 +111,14 @@
               </h2>
             </div>
             <div class="advantages">
-              <div class="advantage__one">
+              <div class="advantage__elem">
                 <img src="./img/content/meat.png" alt="logo_meat" class="advantage__img">
                 <h2 class="advantage__title">100% свежее мясо</h2>
                 <p class="advantage__text">
                   Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен
                 </p>
               </div>
-              <div class="advantage__two">
+              <div class="advantage__elem">
                 <img src="./img/content/hand.png" alt="logo_hand" class="advantage__img">
                 <h2 class="advantage__title">Ручная сборка</h2>
                 <p class="advantage__text">
@@ -95,9 +126,9 @@
                   пафос.
                 </p>
               </div>
-              <div class="advantage__three">
+              <div class="advantage__elem">
                 <img src="./img/content/leaf.png" alt="logo_leaf" class="advantage__img">
-                <h2 class="advantage__title">Натуральные ингредиенты
+                <h2 class="advantage__title ">Натуральные ингредиенты
                 </h2>
                 <p class="advantage__text">
                   Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.
@@ -112,170 +143,226 @@
 
         <div class="container ">
           <div class="content content__presentation">
-            <div class="content__left">
-              <div class="content__left_img">
-                <img src="./img/content/burger-slider.png" alt="content-logo" class="content__img">
+            <div class="slider__arrow">
+              <a href="#" class="slider_link">
+                <svg class="slider__borger_arrow">
+                  <use xlink:href="./img/icons/arrow-scroll.svg"></use>
+                </svg>
+              </a>
+              <a href="#" class="slider_link"></a>
+            </div>
+            <ul class="content__presentation_slider">
+              <li class="content__presentation_slider_item">
+                <div class="content__left">
+                  <div class="content__left_img">
+                    <img src="./img/content/burger-slider.png" alt="content-logo" class="content__pic">
 
-              </div>
-              <div class="content__left_table">
-                <div class="content__composition">
-                  <div class="content__composition_img">
-                    <img src="./img/content/mini_burger.png" alt="logo">
                   </div>
-                  <div class="content__composition_ingtidients">
-                    <h3 class="content__composition_ingtidients_text">Состав</h3>
-                  </div>
-                </div>
-                <div class="content__composition_dropdown">
-                  <table class="content__composition_table">
-                    <tbody>
-                      <tr class="composition__table_row">
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">
-                            <img src="./img/content/table_beef.png" alt="logo" class="composition__table_pic_img">
-                          </div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">Говядина</div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">300г</div>
-                        </td>
-                      </tr>
-                      <tr class="composition__table_row">
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">
-                            <img src="./img/content/table_burg.png" alt="logo" class="composition__table_pic_img">
-                          </div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">Булочка</div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">100г</div>
-                        </td>
-                      </tr>
-                      <tr class="composition__table_row">
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">
-                            <img src="./img/content/table_cheese.png" alt="logo" class="composition__table_pic_img">
-                          </div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">Сыр</div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">85г</div>
-                        </td>
-                      </tr>
-                      <tr class="composition__table_row">
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">
-                            <img src="./img/content/table_vegetables.png" alt="logo" class="composition__table_pic_img">
-                          </div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">Овощи</div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">800г</div>
-                        </td>
-                      </tr>
-                      <tr class="composition__table_row">
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">
-                            <img src="./img/content/table_sheet.png" alt="logo" class="composition__table_pic_img">
-                          </div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">Зелень</div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">200г</div>
-                        </td>
-                      </tr>
-                      <tr class="composition__table_row">
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">
-                            <img src="./img/content/table_sauce.png" alt="logo" class="composition__table_pic_img">
-                          </div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">Соус</div>
-                        </td>
-                        <td class="composition__table_pole">
-                          <div class="composition__table_pic">400г</div>
-                        </td>
-                      </tr>
-
-                    </tbody>
-                  </table>
-                </div>
-                <!--<div class="burger__weight">
-                  <div class="burger__weight_block">
-                    <div class="burger__weight_img">
-                      <img src="./img/content/burger__wight.png" class="burger__weight_img_pic" alt="logo">
+                  <div class="burger__weight">
+                    <div class="burger__weight_block">
+                      <div class="burger__weight_img">
+                        <img src="./img/content/burger__wight.png" class="burger__weight_img_pic" alt="logo">
+                      </div>
+                      <div class="burger__weight_num">1200</div>
+                      <div class="burger__weight_cal">Ккал</div>
                     </div>
-                    <div class="content__composition_ingtidients">1200</div>
-                    <div class="content__composition_ingtidients">Ккал</div>
+                  </div>
+                  <div class="content__left_table">
+                    <div class="content__composition">
+                      <div class="content__composition_img">
+                        <img src="./img/content/mini_burger.png" alt="logo">
+                      </div>
+                      <div class="content__composition_ingtidients">
+                        <h3 class="content__composition_ingtidients_text">Состав</h3>
+                      </div>
+                    </div>
+                    <div class="content__composition_dropdown">
+                      <table class="content__composition_table">
+                        <tbody>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_beef.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Говядина</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">300г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_burg.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Булочка</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">100г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_cheese.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Сыр</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">85г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_vegetables.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Овощи</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">800г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_sheet.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Зелень</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">200г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_sauce.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Соус</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">400г</div>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+
 
                   </div>
-
-                </div>-->
-              </div>
-            </div>
-            <div class="content__right">
-              <div class="content__presentation_title">
-                <h2 class="section__title_white">dark beer burger</h2>
-
-              </div>
-              <div class="content__presentation_text">
-                <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь,
-                  двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.</p>
-              </div>
-              <div class="content__presentation_price">
-                <h3 class="burger__price">500</h3>
-                <div class="burger__price_text">Рублей</div>
-                <div class="content__presentation_oredr">
-                  <input type="submit" class="order__form_button btn" value="Заказать">
                 </div>
-              </div>
+                <div class="content__right">
+                  <div class="content__presentation_title">
+                    <h2 class="section__title_white">dark beer burger</h2>
 
-            </div>
+                  </div>
+                  <div class="content__presentation_text">
+                    <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь,
+                      двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.
+                    </p>
+                  </div>
+                  <div class="content__presentation_price">
+                    <h3 class="burger__price">500</h3>
+                    <div class="burger__price_text">Рублей</div>
+                    <div class="content__presentation_oredr">
+                      <input type="submit" class="order__form_button btn" value="Заказать">
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+            </ul>
           </div>
-
+        </div>
       </section>
       <section class="section team">
         <div class="team__section">
           <div class="team__title">
             <h2 class="section__title_yellow">команда</h2>
-
           </div>
           <ul class="team__list">
             <li class="team__item">
               <a href="#" class="team__triangle">
                   Дэниэл Редклиф
-                </a>
+              </a>
+              <div class="team__acco">
+                <div class="team__acco_content">
+                  <div class="team__acco_pic">
+                    <div class="team__acco__img" style="background-image: url(./img/content/team-pic.jpg)"></div>
+                  </div>
+                  <div class="team__acco_text">
+                    <div class="team__acco_text_title">Оператор</div>
+                    <div class="team__acco_text_desc">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                  </div>
+                </div>
+
+              </div>
             </li>
             <li class="team__item">
               <a href="#" class="team__triangle">
                   Дэниэл Редклиф
-                </a>
+              </a>
+              <div class="team__acco">
+                <div class="team__acco_content">
+                  <div class="team__acco_pic">
+                    <div class="team__acco__img" style="background-image: url(./img/content/team-pic.jpg)"></div>
+                  </div>
+                  <div class="team__acco_text">
+                    <div class="team__acco_text_title">Оператор</div>
+                    <div class="team__acco_text_desc">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                  </div>
+                </div>
+
+              </div>
             </li>
             <li class="team__item">
               <a href="#" class="team__triangle">
                   Дэниэл Редклиф
-                </a>
+              </a>
+              <div class="team__acco">
+                <div class="team__acco_content">
+                  <div class="team__acco_pic">
+                    <div class="team__acco__img" style="background-image: url(./img/content/team-pic.jpg)"></div>
+                  </div>
+                  <div class="team__acco_text">
+                    <div class="team__acco_text_title">Оператор</div>
+                    <div class="team__acco_text_desc">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                  </div>
+                </div>
+
+              </div>
             </li>
             <li class="team__item">
               <a href="#" class="team__triangle">
                   Дэниэл Редклиф
-                </a>
-            </li>
-            <li class="team__item">
-              <a href="#" class="team__triangle">
-                  Дэниэл Редклиф
-                </a>
+              </a>
+              <div class="team__acco">
+                <div class="team__acco_content">
+                  <div class="team__acco_pic">
+                    <div class="team__acco__img" style="background-image: url(./img/content/team-pic.jpg)"></div>
+                  </div>
+                  <div class="team__acco_text">
+                    <div class="team__acco_text_title">Оператор</div>
+                    <div class="team__acco_text_desc">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                  </div>
+                </div>
+
+              </div>
             </li>
           </ul>
         </div>
@@ -289,21 +376,21 @@
             <a href="" class="menu__list_trigger" style="background-image: url(./img/content/meat-ac.jpg)">
               <span class="menu__trigger_text">
                   для мясоедов
-                </span>
+              </span>
             </a>
           </li>
           <li class="menu__list_item">
             <a href="" class="menu__list_trigger" style="background-image: url(./img/content/vegan.jpg)">
               <span class="menu__trigger_text">
                   вегетарианское
-                </span>
+             </span>
             </a>
           </li>
           <li class="menu__list_item">
             <a href="" class="menu__list_trigger" style="background-image: url(./img/content/diet.jpg)">
               <span class="menu__trigger_text">
                   диетическое
-                </span>
+              </span>
             </a>
           </li>
         </ul>
@@ -311,43 +398,170 @@
       <section class="section opinions">
         <ul class="opinions__list">
 
-          <li class="opinius__item">
-            <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic1.jpg)"></div>
+          <li class="opinions__item">
+            <div class="opinion">
+              <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic1.jpg)"></div>
+              <div class="opinion__hover">
+                <div class="opinion__hover_block">
+                  <div class="opinion__hover_block_name">
+                    <h2 class="opinion__hover_block_text">Константин Спилберг</h2>
+                  </div>
+                  <div class="opinion__hover_block_opinion">
+                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
+                      могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+                  </div>
+                  <div class="opinion__hover_block_btn">
+                    <a href="" class="opinion__hover_block_more">Подробнее</a>
+                  </div>
 
-          </li>
-          <li class="opinius__item">
-            <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic2.jpg)">
 
-            </div>
-          </li>
-          <li class="opinius__item">
-            <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic3.jpg)">
+                </div>
 
-            </div>
-          </li>
-          <li class="opinius__item">
-            <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic4.jpg)">
-
-            </div>
-          </li>
-          <li class="opinius__item">
-            <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic5.jpg)">
-
-            </div>
-          </li>
-          <li class="opinius__item">
-            <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic6.jpg)">
-
-            </div>
-          </li>
-          <li class="opinius__item">
-            <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic7.jpg)">
+              </div>
+              <div class="opinion__more">
+                <div class="opinion__hover_block_name opinion__more_block_name">
+                  <h2 class="opinion__hover_block_text">Константин Спилберг</h2>
+                </div>
+                <div class="opinion__hover_block_opinion opinion__more_block_opinion">
+                  <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
+                    могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+                </div>
+              </div>
 
             </div>
           </li>
-          <li class="opinius__item">
-            <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic8.jpg)">
+          <li class="opinions__item">
+            <div class="opinion">
+              <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic2.jpg)"></div>
+              <div class="opinion__hover">
+                <div class="opinion__hover_block">
+                  <div class="opinion__hover_block_name">
+                    <h2 class="opinion__hover_block_text">Константин Спилберг</h2>
+                  </div>
+                  <div class="opinion__hover_block_opinion">
+                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
+                      могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+                  </div>
+                  <div class="opinion__hover_block_btn">
+                    <a href="#" class="opinion__hover_block_more">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="opinions__item">
+            <div class="opinion">
+              <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic3.jpg)"></div>
+              <div class="opinion__hover">
+                <div class="opinion__hover_block">
+                  <div class="opinion__hover_block_name">
+                    <h2 class="opinion__hover_block_text">Константин Спилберг</h2>
+                  </div>
+                  <div class="opinion__hover_block_opinion">
+                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
+                      могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+                  </div>
+                  <div class="opinion__hover_block_btn">
+                    <a href="#" class="opinion__hover_block_more">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="opinions__item">
+            <div class="opinion">
+              <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic4.jpg)"></div>
+              <div class="opinion__hover">
+                <div class="opinion__hover_block">
+                  <div class="opinion__hover_block_name">
+                    <h2 class="opinion__hover_block_text">Константин Спилберг</h2>
+                  </div>
+                  <div class="opinion__hover_block_opinion">
+                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
+                      могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+                  </div>
+                  <div class="opinion__hover_block_btn">
+                    <a href="#" class="opinion__hover_block_more">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="opinions__item">
+            <div class="opinion">
+              <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic5.jpg)"></div>
+              <div class="opinion__hover">
+                <div class="opinion__hover_block">
+                  <div class="opinion__hover_block_name">
+                    <h2 class="opinion__hover_block_text">Константин Спилберг</h2>
+                  </div>
+                  <div class="opinion__hover_block_opinion">
+                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
+                      могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+                  </div>
+                  <div class="opinion__hover_block_btn">
+                    <a href="#" class="opinion__hover_block_more">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="opinions__item">
+            <div class="opinion">
+              <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic6.jpg)"></div>
+              <div class="opinion__hover">
+                <div class="opinion__hover_block">
+                  <div class="opinion__hover_block_name">
+                    <h2 class="opinion__hover_block_text">Константин Спилберг</h2>
+                  </div>
+                  <div class="opinion__hover_block_opinion">
+                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
+                      могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+                  </div>
+                  <div class="opinion__hover_block_btn">
+                    <a href="#" class="opinion__hover_block_more">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="opinions__item">
+            <div class="opinion">
+              <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic7.jpg)"></div>
+              <div class="opinion__hover">
+                <div class="opinion__hover_block">
+                  <div class="opinion__hover_block_name">
+                    <h2 class="opinion__hover_block_text">Константин Спилберг</h2>
+                  </div>
+                  <div class="opinion__hover_block_opinion">
+                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
+                      могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+                  </div>
+                  <div class="opinion__hover_block_btn">
+                    <a href="#" class="opinion__hover_block_more">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="opinions__item">
+            <div class="opinion">
+              <div class="opinion__pic" style="background-image: url(./img/content/opinion-pic8.jpg)"></div>
+              <div class="opinion__hover">
+                <div class="opinion__hover_block">
+                  <div class="opinion__hover_block_name">
+                    <h2 class="opinion__hover_block_text">Константин Спилберг</h2>
+                  </div>
+                  <div class="opinion__hover_block_opinion">
+                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
+                      могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+                  </div>
+                  <div class="opinion__hover_block_btn">
+                    <a href="#" class="opinion__hover_block_more">Подробнее</a>
 
+                  </div>
+                </div>
+              </div>
             </div>
           </li>
         </ul>
@@ -403,19 +617,19 @@
                   </label>
                 </div>
                 <div class="order__form_row">
-                  <label for="" class="order__radio">
-                    <input type="radio" class="order__radio_input">
+                  <label id="check" class="order__radio">
+                    <input type="radio" name="radio" class="order__radio_input">
                     <div class="order__radio_fake"></div> 
                     <span class="order__form_label">Потребуется сдача</span>
                   </label>
-                  <label for="" class="order__radio">
-                    <input type="radio" class="order__radio_input">
+                  <label id="check" class="order__radio">
+                    <input type="radio" name="radio" class="order__radio_input">
                     <div class="order__radio_fake"></div> 
                     <span class="order__form_label">Потребуется сдача</span>
                   </label>
                 </div>
                 <div class="order__form_row">
-                  <label for="" class="order__radio order__radio_checkbox">
+                  <label id="check" class="order__radio order__radio_checkbox">
                     <input type="checkbox" class="order__radio_input ">
                     <div class="order__radio_fake"></div> 
                     <span class="order__form_label">Потребуется сдача</span>
@@ -433,7 +647,10 @@
         </div>
       </section>
       <section class="section map">
-        <div class="yandex__map"></div>
+        <div class="yandex__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41036.54502207019!2d36.23107625356493!3d49.99665777805907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1495301405307"
+            width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
         <footer class="footer">
           <div class="container container__footer">
             <div class="footer__left">
@@ -539,11 +756,13 @@
           </div>
         </footer>
       </section>
-      </div>
     </div>
-
-
-
+  </div>
+  <script src="./JS/jquery-3.2.1.slim.js"></script>
+  <script src="./JS/accord.js"></script>
+  <script src="./JS/tabs.js"></script>
+  <script src="./JS/slider.js"></script>
+  <script src="./JS/one_page_scroll.js"></script>
 </body>
 
 </html>

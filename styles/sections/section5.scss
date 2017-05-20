@@ -50,3 +50,13 @@
   text-align: center
 
 }
+
+.menu__droppdown{
+      position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(47, 50, 52, 0.93);
+    padding: 100px 95px 0px 80px;
+}

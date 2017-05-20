@@ -4,9 +4,9 @@ $red: #e35028;
 $orange: #e45028;
 $black: #2f3234;
 // layout setups
+@import "layout/fonts.scss";
 @import "layout/normalize";
 @import "layout/adjustment";
-@import "layout/fonts";
 // sections
 @import "sections/section1";
 @import "sections/section2";
