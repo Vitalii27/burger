@@ -2,13 +2,15 @@
 
 @font-face {
     font-family: 'Lifehack';
-    src: url('../fonts/Lifehack Medium.otf') format('otf');
+    src: url('../fonts/Lifehack Medium.otf') format('otf'),
+    url('../fonts/Lifehack Medium.otf') format('otf');
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gagalin';
-    src: url('../fonts/Gagalin/Gagalin-Regular.otf') format('otf');
+    src: url('../fonts/Gagalin/Gagalin-Regular.otf') format('otf'),
+    url('../fonts/Gagalin/Gagalin-Regular.otf') format('otf');
     font-style: normal;
 }
 
