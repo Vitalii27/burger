@@ -7,13 +7,11 @@
    display: flex;
   flex-direction: column;
   justify-content: center;
-  // position: relative;
 
 }
 
 .content__left{
   position: relative;
-  // margin-right: 30px;
 }
 
 .content__left_table{
@@ -92,17 +90,18 @@
 .content__right{
   display: flex;
   flex-direction: column;
-
+ margin-top: -30px;
   margin-left: 60px;
 }
 
 .content__presentation_title{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .content__presentation_text p{
   font: 14px/20px "Ubuntu";
   color: #fff;
+  margin-bottom: 20px;
   
 }
 .content__presentation_slider_item{
