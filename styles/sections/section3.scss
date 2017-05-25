@@ -1,10 +1,6 @@
-// .presentation{
-//   background-image: linear-gradient(to top bottom, #f9b43b, #eb8d38, #f9b43b);
-// }
-
 .presentation{
   background: linear-gradient( to top, $yellow, #eb8d38, $yellow);
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 

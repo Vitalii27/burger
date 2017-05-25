@@ -1,7 +1,6 @@
 
-
 .welcome{
-  background: url(../img/content/section1-BG.jpg);
+  background: url(../video_background/burger_video.mp4);
   background-size: cover; 
   position: relative;
 
@@ -11,6 +10,26 @@
   height: 100vh; 
   
 }
+.arrow__back{
+  z-index: 20;
+  position: fixed;
+  height: 60px;
+  width: 60px;
+  top:20px;
+  left: 20px;
+  transform: rotate(180deg);
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
 
 .maincontent{ 
   height: 100%;  
@@ -18,10 +37,11 @@
 } 
 
 .nav__dotted_list{
-      position: fixed;
-      z-index: 10;
-    top: 90px;
-    right: 40px;
+  position: fixed;
+  z-index: 10;
+  top: 90px;
+  right: 40px;
+
 
 }
 
@@ -77,10 +97,15 @@
 
 }
 
+.nav__dotted_item.section__active .nav__dotted_link:before {
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+}
+
 .header{
   padding-top: 12px;
   display: flex;
-  
 }
 
 .header__left{
@@ -159,6 +184,8 @@
 
 .content__img{
   padding-bottom: 100px;
+    z-index: 9999;
+
 }
 
 .arrow__link{

@@ -3,68 +3,71 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Burgers</title>
   <link rel="icon" type="image/vnd.microsoft.icon" href="./img/favicon/unnamed.png">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="./burgers-slider/jquery.bxslider.css">
 </head>
 
 <body>
   <div class="nav__dotted">
     <ul class="nav__dotted_list">
       <li class="nav__dotted_item">
-        <a href="#" class="nav__dotted_link">
+        <a href="#home" class="nav__dotted_link">
         </a>
       </li>
       <li class="nav__dotted_item">
-        <a href="#" class="nav__dotted_link"></a>
+        <a href="#about__us" class="nav__dotted_link"></a>
       </li>
       <li class="nav__dotted_item">
-        <a href="" class="nav__dotted_link"></a>
+        <a href="#burgers" class="nav__dotted_link"></a>
       </li>
       <li class="nav__dotted_item">
-        <a href="" class="nav__dotted_link"></a>
+        <a href="#team" class="nav__dotted_link"></a>
       </li>
       <li class="nav__dotted_item">
-        <a href="" class="nav__dotted_link"></a>
+        <a href="#menu" class="nav__dotted_link"></a>
       </li>
       <li class="nav__dotted_item">
-        <a href="" class="nav__dotted_link"></a>
+        <a href="#reviews" class="nav__dotted_link"></a>
       </li>
       <li class="nav__dotted_item">
-        <a href="" class="nav__dotted_link"></a>
+        <a href="#order" class="nav__dotted_link"></a>
       </li>
       <li class="nav__dotted_item">
-        <a href="" class="nav__dotted_link"></a>
+        <a href="#contacts" class="nav__dotted_link"></a>
       </li>
     </ul>
   </div>
   <div class="wrapper">
 
     <div class="maincontent">
-      <section class="section welcome">
+      
+
+      <section class="section welcome section__active" id="home">
 
         <div class="container">
           <header class="header">
             <div class="header__left">
-              <a href="#" class="logo__link">
+              <a href="index.html" class="logo__link">
                 <img src="./img/content/logo.png" alt="logo" class="header__left_logo">
               </a>
             </div>
             <div class="header__right">
               <div class="nav">
                 <ul class="nav__List">
-                  <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
-                  <li class="nav__item"><a href="#" class="nav__link">Бургеры</a></li>
-                  <li class="nav__item"><a href="#" class="nav__link">Команда</a></li>
-                  <li class="nav__item"><a href="#" class="nav__link">Меню</a></li>
-                  <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
-                  <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                  <li class="nav__item"><a href="#about__us" class="nav__link">О нас</a></li>
+                  <li class="nav__item"><a href="#burgers" class="nav__link">Бургеры</a></li>
+                  <li class="nav__item"><a href="#team" class="nav__link">Команда</a></li>
+                  <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                  <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                  <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
                 </ul>
               </div>
               <div class="order__header">
-                <a href="#" class="order__button btn">Заказать</a>
+                <a href="#order" class="order__button btn">Заказать</a>
               </div>
             </div>
           </header>
@@ -101,9 +104,11 @@
           </span>
           </a>
         </div>
-
+        <video autoplay loop muted class="bgvideo">
+          <source src="./video_background/burger_video.mp4" type="video/mp4"></source>
       </section>
-      <section class="section best">
+      
+      <section class="section best" id="about__us">
         <div class="container">
           <div class="best__content">
             <div class="best__content_title">
@@ -139,8 +144,24 @@
           </div>
         </div>
       </section>
-
-      <section class="section presentation">
+      <!--<div class="arrow__back">
+         <a href="#" class="arrow__link">
+            <span class="arrow__link_down">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="28.685px" height="14.479px" viewBox="0 0 28.685 14.479" enable-background="new 0 0 28.685 14.479" xml:space="preserve">
+              <g>
+                <g>
+                  <path fill="#FFFFFF" d="M14.332,14.479c-1.279,0-2.554-0.486-3.525-1.458L0.268,1.681c-0.376-0.404-0.353-1.037,0.052-1.413
+        c0.403-0.374,1.036-0.354,1.413,0.052l10.514,11.314c1.145,1.143,3.049,1.142,4.218-0.026L26.952,0.319
+        c0.378-0.405,1.011-0.426,1.413-0.052c0.404,0.376,0.428,1.009,0.052,1.413L17.903,12.995
+        C16.913,13.986,15.62,14.479,14.332,14.479z" />
+                </g>
+              </g>
+            </svg>
+          </span>
+          </a>
+      </div>-->
+      <section class="section presentation" id="burgers">
 
         <div class="container ">
           <div class="content content__presentation">
@@ -281,17 +302,151 @@
                     <h3 class="burger__price">500</h3>
                     <div class="burger__price_text">Рублей</div>
                     <div class="content__presentation_oredr">
-                      <input type="submit" class="order__form_button btn" value="Заказать">
+                      <a href="#order" class="order__button btn">Заказать</a>
                     </div>
                   </div>
 
                 </div>
               </li>
+              <!--<li class="content__presentation_slider_item">
+                <div class="content__left">
+                  <div class="content__left_img">
+                    <img src="./img/content/burger-slider.png" alt="content-logo" class="content__pic">
+
+                  </div>
+                  <div class="burger__weight">
+                    <div class="burger__weight_block">
+                      <div class="burger__weight_img">
+                        <img src="./img/content/burger__wight.png" class="burger__weight_img_pic" alt="logo">
+                      </div>
+                      <div class="burger__weight_num">1200</div>
+                      <div class="burger__weight_cal">Ккал</div>
+                    </div>
+                  </div>
+                  <div class="content__left_table">
+                    <div class="content__composition">
+                      <div class="content__composition_img">
+                        <img src="./img/content/mini_burger.png" alt="logo">
+                      </div>
+                      <div class="content__composition_ingtidients">
+                        <h3 class="content__composition_ingtidients_text">Состав</h3>
+                      </div>
+                    </div>
+                    <div class="content__composition_dropdown">
+                      <table class="content__composition_table">
+                        <tbody>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_beef.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Говядина</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">300г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_burg.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Булочка</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">100г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_cheese.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Сыр</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">85г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_vegetables.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Овощи</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">800г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_sheet.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Зелень</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">200г</div>
+                            </td>
+                          </tr>
+                          <tr class="composition__table_row">
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">
+                                <img src="./img/content/table_sauce.png" alt="logo" class="composition__table_pic_img">
+                              </div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">Соус</div>
+                            </td>
+                            <td class="composition__table_pole">
+                              <div class="composition__table_pic">400г</div>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+
+
+                  </div>
+                </div>
+                <div class="content__right">
+                  <div class="content__presentation_title">
+                    <h2 class="section__title_white">dark beer burger</h2>
+
+                  </div>
+                  <div class="content__presentation_text">
+                    <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь,
+                      двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.
+                    </p>
+                  </div>
+                  <div class="content__presentation_price">
+                    <h3 class="burger__price">500</h3>
+                    <div class="burger__price_text">Рублей</div>
+                    <div class="content__presentation_oredr">
+                      <a href="#order" class="order__button btn">Заказать</a>
+                    </div>
+                  </div>
+
+                </div>
+              </li>-->
             </ul>
           </div>
         </div>
       </section>
-      <section class="section team">
+      <section class="section team" id="team">
         <div class="team__section">
           <div class="team__title">
             <h2 class="section__title_yellow">команда</h2>
@@ -368,35 +523,48 @@
           </ul>
         </div>
       </section>
-      <section class="section menu">
+      <section class="section menu" id="menu">
         <div class="menu__title">
           <h3 class="section__title_white menu__text">Меню</h3>
         </div>
         <ul class="menu__list">
           <li class="menu__list_item">
-            <a href="" class="menu__list_trigger" style="background-image: url(./img/content/meat-ac.jpg)">
+            <a href="" class="menu__link_trigger" style="background-image: url(./img/content/meat-ac.jpg)">
               <span class="menu__trigger_text">
                   для мясоедов
               </span>
             </a>
+            <div class="menu__accord">
+              <p class="menu__accord_text">Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр.
+Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову.</p>
+            </div>
           </li>
+
           <li class="menu__list_item">
-            <a href="" class="menu__list_trigger" style="background-image: url(./img/content/vegan.jpg)">
+            <a href="" class="menu__link_trigger" style="background-image: url(./img/content/vegan.jpg)">
               <span class="menu__trigger_text">
                   вегетарианское
              </span>
             </a>
+             <div class="menu__accord">
+              <p class="menu__accord_text">Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр.
+Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову.</p>
+            </div
           </li>
           <li class="menu__list_item">
-            <a href="" class="menu__list_trigger" style="background-image: url(./img/content/diet.jpg)">
+            <a href="" class="menu__link_trigger" style="background-image: url(./img/content/diet.jpg)">
               <span class="menu__trigger_text">
                   диетическое
               </span>
             </a>
+             <div class="menu__accord">
+              <p class="menu__accord_text">Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр.
+Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову.</p>
+            </div
           </li>
         </ul>
       </section>
-      <section class="section opinions">
+      <section class="section opinions" id="reviews">
         <ul class="opinions__list">
 
           <li class="opinions__item">
@@ -567,7 +735,7 @@
           </li>
         </ul>
       </section>
-      <section class="section order">
+      <section class="section order" id="order">
         <div class="container ">
           <div class="form__title">
             <h2 class="section__title_yellow form__title_order">Закажите доставку</h2>
@@ -647,7 +815,7 @@
           </div>
         </div>
       </section>
-      <section class="section map">
+      <section class="section map" id="contacts">
         <div class="yandex__map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41036.54502207019!2d36.23107625356493!3d49.99665777805907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1495301405307"
             width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -759,11 +927,14 @@
       </section>
     </div>
   </div>
-  <script src="./JS/jquery-3.2.1.slim.js"></script>
-  <script src="./JS/accord.js"></script>
-  <script src="./JS/tabs.js"></script>
-  <script src="./JS/slider.js"></script>
+  <script src="./JS/jquery-3.2.1.js"></script>
   <script src="./JS/one_page_scroll.js"></script>
+  <script src="./JS/accord.js"></script>
+  <script src="./JS/anchor.js"></script>
+  <script src="./JS/horizontal-accord.js"></script>
+  <script src="./burgers-slider/jquery.bxslider.js"></script>
+  <script src="./JS/slider.js"></script>
+  
 </body>
 
 </html>

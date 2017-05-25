@@ -1,6 +1,6 @@
 .menu{
  
-    background: url(../img/content/section5-BG.jpg) ;
+  background: url(../img/content/section5-BG.jpg) ;
   background-size: cover;
   position: relative;
 }    
@@ -13,6 +13,7 @@
 
 
 .menu__list{
+  @extend %clearfix;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -20,12 +21,11 @@
 }
 
 .menu__list_item{
-  display: inline-flex;
-  margin-right: -5px;
+  float: left;
   height: 100%;
 }
 
-.menu__list_trigger{
+.menu__link_trigger{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -33,11 +33,12 @@
   display: block;
   width: 80px;
   position: relative;
+  float: left;
 }
 
 .menu__trigger_text{
   color: #fff;
-  font: 48px/48px "Gagalin";
+  font: 40px/40px "Gagalin";
   position: absolute;
   top: 50%;
   height: 80px;
@@ -45,18 +46,34 @@
   white-space: nowrap;
   width: 650px;
   left: 50%;
-  margin-left: -313px;
+  margin-left: -310px;
   transform: rotate(-90deg);
-  text-align: center
+  text-align: center;
 
 }
 
-.menu__droppdown{
-      position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    background: rgba(47, 50, 52, 0.93);
-    padding: 100px 95px 0px 80px;
+.menu__accord{
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    height: 100%;
+    background-color: rgba(47, 50, 52, 0.9);
+    vertical-align: top;
+    
+}
+
+.menu__accord_text {
+    display: block;
+    color: #fff;
+    font: 14px/16px "Ubuntu";
+    height: 100%;
+    padding: 10% 7%;
+    line-height: 1.8;
+}
+
+.menu__item_active{
+  .menu__trigger_text{
+
+  color:$yellow;
+  }
 }
