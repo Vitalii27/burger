@@ -100,3 +100,24 @@
 .opinion__more_block_name .opinion__more_block_opinion{
   color: #000;
 }
+
+.full__review{
+  width: 460px;
+  height: 200px;
+  background: #fff;
+}
+
+.full__review_name{
+  color: #2f3234;
+  font: 14px/14px "Gagalin";
+  text-transform: uppercase;
+}
+
+.full__review_text{
+  color: #2f3234;
+  font: 14px/14px "ubuntu";
+}
+
+.popup{
+  display: none;
+}
