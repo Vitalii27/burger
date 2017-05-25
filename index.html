@@ -7,9 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Burgers</title>
   <link rel="icon" type="image/vnd.microsoft.icon" href="./img/favicon/unnamed.png">
+
+  <link rel="stylesheet" href="./bower_components/swiper/dist/css/swiper.css">
   <link rel="stylesheet" href="styles/main.css">
-  <!--<link rel="stylesheet" href="./bower_components/owl.carousel/dist/assets/owl.carousel.css">-->
-  <link rel="stylesheet" href="./bower_components/fancybox/dist/jquery.fancybox.min.css.css">
+
+
 </head>
 
 <body>
@@ -175,276 +177,286 @@
               </a>
               <a href="#" class="slider_link"></a>
             </div>
-            <ul class="content__presentation_slider owl-carousel">
-              <li class="content__presentation_slider_item">
-                <div class="content__left">
-                  <div class="content__left_img">
-                    <img src="./img/content/burger-slider.png" alt="content-logo" class="content__pic">
+            <div class="content__presentation_slider swiper-container">
+              <div class="swiper-wrapper">
+                <div class="content__presentation_slider_item swiper-slide">
+                  <div class="content__left">
+                    <div class="content__left_img">
+                      <img src="./img/content/burger-slider.png" alt="content-logo" class="content__pic">
 
-                  </div>
-                  <div class="burger__weight">
-                    <div class="burger__weight_block">
-                      <div class="burger__weight_img">
-                        <img src="./img/content/burger__wight.png" class="burger__weight_img_pic" alt="logo">
+                    </div>
+                    <div class="burger__weight">
+                      <div class="burger__weight_block">
+                        <div class="burger__weight_img">
+                          <img src="./img/content/burger__wight.png" class="burger__weight_img_pic" alt="logo">
+                        </div>
+                        <div class="burger__weight_num">1200</div>
+                        <div class="burger__weight_cal">Ккал</div>
                       </div>
-                      <div class="burger__weight_num">1200</div>
-                      <div class="burger__weight_cal">Ккал</div>
+                    </div>
+                    <div class="content__left_table">
+                      <div class="content__composition">
+                        <div class="content__composition_img">
+                          <img src="./img/content/mini_burger.png" alt="logo">
+                        </div>
+                        <div class="content__composition_ingtidients">
+                          <h3 class="content__composition_ingtidients_text">Состав</h3>
+                        </div>
+                      </div>
+                      <div class="content__composition_dropdown">
+                        <table class="content__composition_table">
+                          <tbody>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_beef.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Говядина</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">300г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_burg.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Булочка</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">100г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_cheese.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Сыр</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">85г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_vegetables.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Овощи</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">800г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_sheet.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Зелень</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">200г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_sauce.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Соус</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">400г</div>
+                              </td>
+                            </tr>
+
+                          </tbody>
+                        </table>
+                      </div>
+
+
+
                     </div>
                   </div>
-                  <div class="content__left_table">
-                    <div class="content__composition">
-                      <div class="content__composition_img">
-                        <img src="./img/content/mini_burger.png" alt="logo">
-                      </div>
-                      <div class="content__composition_ingtidients">
-                        <h3 class="content__composition_ingtidients_text">Состав</h3>
+                  <div class="content__right">
+                    <div class="content__presentation_title">
+                      <h2 class="section__title_white">dark beer burger</h2>
+
+                    </div>
+                    <div class="content__presentation_text">
+                      <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра
+                        эмменталь, двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса
+                        чураско.
+                      </p>
+                    </div>
+                    <div class="content__presentation_price">
+                      <h3 class="burger__price">500</h3>
+                      <div class="burger__price_text">Рублей</div>
+                      <div class="content__presentation_oredr">
+                        <a href="#order" class="order__button btn">Заказать</a>
                       </div>
                     </div>
-                    <div class="content__composition_dropdown">
-                      <table class="content__composition_table">
-                        <tbody>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_beef.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Говядина</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">300г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_burg.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Булочка</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">100г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_cheese.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Сыр</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">85г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_vegetables.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Овощи</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">800г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_sheet.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Зелень</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">200г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_sauce.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Соус</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">400г</div>
-                            </td>
-                          </tr>
-
-                        </tbody>
-                      </table>
-                    </div>
-
-
 
                   </div>
                 </div>
-                <div class="content__right">
-                  <div class="content__presentation_title">
-                    <h2 class="section__title_white">dark beer burger</h2>
+                <div class="content__presentation_slider_item swiper-slide">
+                  <div class="content__left">
+                    <div class="content__left_img">
+                      <img src="./img/content/burger-slider.png" alt="content-logo" class="content__pic">
 
-                  </div>
-                  <div class="content__presentation_text">
-                    <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь,
-                      двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.
-                    </p>
-                  </div>
-                  <div class="content__presentation_price">
-                    <h3 class="burger__price">500</h3>
-                    <div class="burger__price_text">Рублей</div>
-                    <div class="content__presentation_oredr">
-                      <a href="#order" class="order__button btn">Заказать</a>
                     </div>
-                  </div>
-
-                </div>
-              </li>
-              <li class="content__presentation_slider_item">
-                <div class="content__left">
-                  <div class="content__left_img">
-                    <img src="./img/content/burger-slider.png" alt="content-logo" class="content__pic">
-
-                  </div>
-                  <div class="burger__weight">
-                    <div class="burger__weight_block">
-                      <div class="burger__weight_img">
-                        <img src="./img/content/burger__wight.png" class="burger__weight_img_pic" alt="logo">
-                      </div>
-                      <div class="burger__weight_num">1200</div>
-                      <div class="burger__weight_cal">Ккал</div>
-                    </div>
-                  </div>
-                  <div class="content__left_table">
-                    <div class="content__composition">
-                      <div class="content__composition_img">
-                        <img src="./img/content/mini_burger.png" alt="logo">
-                      </div>
-                      <div class="content__composition_ingtidients">
-                        <h3 class="content__composition_ingtidients_text">Состав</h3>
+                    <div class="burger__weight">
+                      <div class="burger__weight_block">
+                        <div class="burger__weight_img">
+                          <img src="./img/content/burger__wight.png" class="burger__weight_img_pic" alt="logo">
+                        </div>
+                        <div class="burger__weight_num">1200</div>
+                        <div class="burger__weight_cal">Ккал</div>
                       </div>
                     </div>
-                    <div class="content__composition_dropdown">
-                      <table class="content__composition_table">
-                        <tbody>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_beef.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Говядина</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">300г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_burg.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Булочка</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">100г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_cheese.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Сыр</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">85г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_vegetables.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Овощи</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">800г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_sheet.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Зелень</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">200г</div>
-                            </td>
-                          </tr>
-                          <tr class="composition__table_row">
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">
-                                <img src="./img/content/table_sauce.png" alt="logo" class="composition__table_pic_img">
-                              </div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">Соус</div>
-                            </td>
-                            <td class="composition__table_pole">
-                              <div class="composition__table_pic">400г</div>
-                            </td>
-                          </tr>
+                    <div class="content__left_table">
+                      <div class="content__composition">
+                        <div class="content__composition_img">
+                          <img src="./img/content/mini_burger.png" alt="logo">
+                        </div>
+                        <div class="content__composition_ingtidients">
+                          <h3 class="content__composition_ingtidients_text">Состав</h3>
+                        </div>
+                      </div>
+                      <div class="content__composition_dropdown">
+                        <table class="content__composition_table">
+                          <tbody>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_beef.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Говядина</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">300г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_burg.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Булочка</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">100г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_cheese.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Сыр</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">85г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_vegetables.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Овощи</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">800г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_sheet.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Зелень</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">200г</div>
+                              </td>
+                            </tr>
+                            <tr class="composition__table_row">
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">
+                                  <img src="./img/content/table_sauce.png" alt="logo" class="composition__table_pic_img">
+                                </div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">Соус</div>
+                              </td>
+                              <td class="composition__table_pole">
+                                <div class="composition__table_pic">400г</div>
+                              </td>
+                            </tr>
 
-                        </tbody>
-                      </table>
+                          </tbody>
+                        </table>
+                      </div>
+
+
+
                     </div>
+                  </div>
+                  <div class="content__right">
+                    <div class="content__presentation_title">
+                      <h2 class="section__title_white">dark beer burger</h2>
 
-
+                    </div>
+                    <div class="content__presentation_text">
+                      <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра
+                        эмменталь, двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса
+                        чураско.
+                      </p>
+                    </div>
+                    <div class="content__presentation_price">
+                      <h3 class="burger__price">500</h3>
+                      <div class="burger__price_text">Рублей</div>
+                      <div class="content__presentation_oredr">
+                        <a href="#order" class="order__button btn">Заказать</a>
+                      </div>
+                    </div>
 
                   </div>
                 </div>
-                <div class="content__right">
-                  <div class="content__presentation_title">
-                    <h2 class="section__title_white">dark beer burger</h2>
-
-                  </div>
-                  <div class="content__presentation_text">
-                    <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь,
-                      двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.
-                    </p>
-                  </div>
-                  <div class="content__presentation_price">
-                    <h3 class="burger__price">500</h3>
-                    <div class="burger__price_text">Рублей</div>
-                    <div class="content__presentation_oredr">
-                      <a href="#order" class="order__button btn">Заказать</a>
-                    </div>
-                  </div>
-
-                </div>
-              </li>
-            </ul>
+         
+              </div>
+         
+              <div class="swiper-pagination"></div>
+           
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -952,9 +964,9 @@
     </div>
   </div>
   <script src="./bower_components/jquery/dist/jquery.js"></script>
-  <script src="./bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="./bower_components/swiper/dist/js/swiper.jquery.js"></script>
   <script src="./bower_components/inputmask/dist/jquery.inputmask.bundle.js"></script>
-  <script src="./bower_components/fancybox/dist/jquery.fancybox.min.js"></script>
+  <!--<script src="./bower_components/fancybox/dist/jquery.fancybox.min.js"></script>-->
   <script src="./JS/one_page_scroll.js"></script>
   <script src="./JS/accord.js"></script>
   <script src="./JS/anchor.js"></script>
