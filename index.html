@@ -256,7 +256,7 @@
                       <h3 class="burger__price">500</h3>
                       <div class="burger__price_text">Рублей</div>
                       <div class="content__presentation_oredr">
-                        <a href="#order" class="order__button btn">Заказать</a>
+                        <a href="6" class="order__button btn">Заказать</a>
                       </div>
                     </div>
 
@@ -391,7 +391,7 @@
                       <h3 class="burger__price">500</h3>
                       <div class="burger__price_text">Рублей</div>
                       <div class="content__presentation_oredr">
-                        <a href="#order" class="order__button btn">Заказать</a>
+                        <a href="6" class="order__button btn">Заказать</a>
                       </div>
                     </div>
 
@@ -783,7 +783,7 @@
 
                 </div>
                 <div class="order__form_row order__form_row_button">
-                  <input type="submit" class="order__form_button btn" value="Заказать">
+                  <input type="submit" class="order__form_button btn"  value="Заказать">
                   <input type="submit" class="order__form_button order__form_button_reset" value="Очистить">
                 </div>
               </div>
@@ -793,10 +793,10 @@
         </div>
       </section>
       <section class="section map" >
-        <div class="yandex__map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41036.54502207019!2d36.23107625356493!3d49.99665777805907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1495301405307"
-            width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div id="map">
+         
         </div>
+     
         <footer class="footer">
           <div class="container container__footer">
             <div class="footer__left">
@@ -942,24 +942,25 @@
         таким расплавленным.</div>
 
     </div>
-    <div class="modal__form">
+    <div class="modal__form popup zoom-anim-dialog mfp-hide" id="success"> 
       <div class="modal__form_text">Сообщение отправлено</div>
       <a href="#" class="modal__form_close">Закрыть</a>
     </div>
-
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzkhTS5_LeKd7AZgqw8r3-AIJ-I7fsrGU"></script>
   <script src="./bower_components/jquery/dist/jquery.js"></script>
   <script src="./bower_components/swiper/dist/js/swiper.jquery.js"></script>
   <script src="./bower_components/inputmask/dist/jquery.inputmask.bundle.js"></script>
   <script src="./bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-  <!--<script src="./bower_components/fancybox/dist/jquery.fancybox.min.js"></script>-->
-  <!--<script src="./JS/one_page_scroll.js"></script>-->
   <script src="./JS/accord.js"></script>
   <script src="./JS/onescroll.js"></script>
-  <!--<script src="./JS/anchor.js"></script>-->
   <script src="./JS/horizontal-accord.js"></script>
   <script src="./JS/input.js"></script>
   <script src="./JS/slider.js"></script>
   <script src="./JS/popup.js"></script>
+  <script src="./JS/form.js"></script>
+  <script src="./JS/map.js"></script>
+  <script src="./JS/main.js"></script>
+
 
 </body>
 
