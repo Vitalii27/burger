@@ -3,15 +3,12 @@ $yellow: #f9b43b;
 $red: #e35028;
 $orange: #e45028;
 $black: #2f3234;
-
 // mixins
 @import "helpers/mixins";
-
 // layout setups
 @import "layout/fonts.scss";
 @import "layout/normalize";
 @import "layout/adjustment";
-
 // sections
 @import "sections/section1";
 @import "sections/section2";

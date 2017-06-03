@@ -1,46 +1,39 @@
-.best{
-  background: url(../img/content/section2-BG.jpg) no-repeat center center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.best {
+    background: url(../img/content/section2-BG.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.best__content{
-  text-align: center;
-
-
+.best__content {
+    text-align: center;
 }
 
-.best__content_text{
-  color: #2f3234;
-  font: 72px/72px "Gagalin";
-  padding-bottom: 80px;
-} 
-
-.advantages{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-   
+.best__content_text {
+    color: #2f3234;
+    font: 72px/72px "Gagalin";
+    padding-bottom: 80px;
 }
 
-.advantage__elem{
-  width: 33.3333%; 
-
+.advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-
-
-.advantage__title{ 
-  padding-top: 34px;
-  padding-bottom: 20px;
-  font: 24.12px/24.12px "Lifehack";
+.advantage__elem {
+    width: 33.3333%;
 }
 
-.advantage__text{
-  font: 14px/20px "Ubuntu";
-  font-weight: 400;
-  color: #838281;
+.advantage__title {
+    padding-top: 34px;
+    padding-bottom: 20px;
+    font: 24.12px/24.12px "Lifehack";
+}
+
+.advantage__text {
+    font: 14px/20px "Ubuntu";
+    font-weight: 400;
+    color: #838281;
 }

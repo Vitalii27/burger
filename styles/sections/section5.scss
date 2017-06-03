@@ -1,65 +1,61 @@
-.menu{
- 
-  background: url(../img/content/section5-BG.jpg) ;
-  background-size: cover;
-  position: relative;
-}    
-
-.menu__title{
-  position: absolute;
-  top: 110px;
-  left: 90px;
-}   
-
-
-.menu__list{
-  @extend %clearfix;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
+.menu {
+    background: url(../img/content/section5-BG.jpg);
+    background-size: cover;
+    position: relative;
 }
 
-.menu__list_item{
-  float: left;
-  height: 100%;
+.menu__title {
+    position: absolute;
+    top: 110px;
+    left: 90px;
 }
 
-.menu__link_trigger{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100%;
-  display: block;
-  width: 80px;
-  position: relative;
-  float: left;
+.menu__list {
+    @extend %clearfix;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 
-.menu__trigger_text{
-  color: #fff;
-  font: 40px/40px "Gagalin";
-  position: absolute;
-  top: 50%;
-  height: 80px;
-  margin-top: -40px;
-  white-space: nowrap;
-  width: 650px;
-  left: 50%;
-  margin-left: -310px;
-  transform: rotate(-90deg);
-  text-align: center;
-
+.menu__list_item {
+    float: left;
+    height: 100%;
 }
 
-.menu__accord{
+.menu__link_trigger {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    display: block;
+    width: 80px;
+    position: relative;
+    float: left;
+}
+
+.menu__trigger_text {
+    color: #fff;
+    font: 40px/40px "Gagalin";
+    position: absolute;
+    top: 50%;
+    height: 80px;
+    margin-top: -40px;
+    white-space: nowrap;
+    width: 650px;
+    left: 50%;
+    margin-left: -310px;
+    transform: rotate(-90deg);
+    text-align: center;
+}
+
+.menu__accord {
     display: inline-block;
     width: 0;
     overflow: hidden;
     height: 100%;
     background-color: rgba(47, 50, 52, 0.9);
     vertical-align: top;
-    
 }
 
 .menu__accord_text {
@@ -71,9 +67,8 @@
     line-height: 1.8;
 }
 
-.menu__item_active{
-  .menu__trigger_text{
-
-  color:$yellow;
-  }
+.menu__item_active {
+    .menu__trigger_text {
+        color: $yellow;
+    }
 }
