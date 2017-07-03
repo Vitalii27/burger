@@ -133,7 +133,7 @@
                 <div class="content__presentation_slider_item swiper-slide">
                   <div class="content__left">
                     <div class="content__left_img">
-                      <img src="./img/content/burger-slider.png" alt="content-logo" class="content__pic">
+                      <img src="./burgers-slider/burger_sandwich_PNG4124.png" alt="content-logo" class="content__pic">
 
                     </div>
                     <div class="burger__weight">
@@ -521,7 +521,7 @@
                 И.Гальперин, пространственно выбирает метр. Речевой акт редуцирует диалектический характер. Развивая эту
                 тему, заимствование редуцирует конструктивный механизм сочленений. Лирический субъект начинает диссонансный
                 анжамбеман. Наш современник стал особенно чутко относиться к слову.</p>
-            </div </li>
+            </div> </li>
             <li class="menu__list_item">
               <a href="" class="menu__link_trigger" style="background-image: url(./img/content/diet.jpg)">
                 <span class="menu__trigger_text">
@@ -535,7 +535,7 @@
                   считает И.Гальперин, пространственно выбирает метр. Речевой акт редуцирует диалектический характер. Развивая
                   эту тему, заимствование редуцирует конструктивный механизм сочленений. Лирический субъект начинает диссонансный
                   анжамбеман. Наш современник стал особенно чутко относиться к слову.</p>
-              </div </li>
+              </div> </li>
         </ul>
       </section>
       <section class="section opinions" >
@@ -718,16 +718,16 @@
             <h2 class="section__title_yellow form__title_order">Закажите доставку</h2>
           </div>
           <div class="form">
-            <form action="" class="order__form" id="order__form">
+            <form action="./mail.php" method="post"  class="order__form" id="order__form">
               <div class="order__form_column">
                 <div class="order__form_row order__form_row_two">
                   <label class="order__form_block">
                     <span class="order__form_label">Имя</span>
-                    <input type="text" name="name" class="order__form_input">
+                    <input type="text" name="name" class="order__form_input" data-content = "Вы не ввели ваше имя">
                   </label>
                   <label class="order__form_block">
                     <span class="order__form_label"> Телефон</span>
-                    <input type="text" name="phone" class="order__form_input phone-mask">
+                    <input type="text" name="phone" class="order__form_input phone-mask" data-content = "Вы не ввели ваш телефон">
                   </label>
                 </div>
                 <div class="order__form_row">
@@ -905,6 +905,7 @@
     </div>
    
   </div>
+  
    <div class="nav__dotted">
         <ul class="nav__dotted_list">
             <li class="nav__dotted_item active">
@@ -942,10 +943,15 @@
         таким расплавленным.</div>
 
     </div>
-    <div class="modal__form popup zoom-anim-dialog mfp-hide" id="success"> 
-      <div class="modal__form_text">Сообщение отправлено</div>
+     <div class="modal__form popup zoom-anim-dialog mfp-hide" id="success"> 
+       <div class="modal__form_text">Сообщение отправлено</div>
+       <a href="#" class="modal__form_close">Закрыть</a>
+    </div>
+    <div class="modal__form popup zoom-anim-dialog mfp-hide" id="mistake"> 
+      <div class="modal__form_text">Произошла ошибка</div>
       <a href="#" class="modal__form_close">Закрыть</a>
     </div>
+   
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzkhTS5_LeKd7AZgqw8r3-AIJ-I7fsrGU"></script>
   <script src="./bower_components/jquery/dist/jquery.js"></script>
   <script src="./bower_components/swiper/dist/js/swiper.jquery.js"></script>
